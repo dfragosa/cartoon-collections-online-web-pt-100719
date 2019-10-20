@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(words) 
  # a.index {|x| x == "b"}
-   words.index {|x| x > 4}
+   words.index {|x| x > [4]}
    
 end 
    
