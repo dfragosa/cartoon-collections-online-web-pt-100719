@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(words) 
  
-   words.find {|long_words| long_words.length[4] > words.length[4]}
+   words.find 
    
 end 
    
