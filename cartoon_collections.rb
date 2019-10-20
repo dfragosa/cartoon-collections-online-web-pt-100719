@@ -21,5 +21,5 @@ end
 def find_the_cheese(str_array) 
    # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.any? {|i| (0..-1).include?(i)}
+  str_array.any? {|i| (0..-1).include?(i)}
 end
