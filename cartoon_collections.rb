@@ -13,8 +13,8 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(words) 
- # a.index {|x| x == "b"}
-   words.any? {|word| word.length > [4]}
+ # a.index {|x| x >4}
+   words.any? {|word| word.length > 4}
    
 end 
    
